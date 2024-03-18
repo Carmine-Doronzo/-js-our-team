@@ -34,14 +34,21 @@ console.log(members)
 
 /*MILESTONE 2 + BONUS 1:
 Stampare le stesse informazioni su DOM semplicemente come stringhe */
-const strigDomElement = document.querySelector('.string');
+const strigDomElement = document.querySelector('.row');
 
 for(let i = 0; i < members.length; i++){
 
     strigDomElement.innerHTML +=`
+    
+    <div class="col-4">
+        <img src="${members[i].image}">
         <div>${members[i].name}</div>
         <div>${members[i].rule}</div> <br>
-        <img src="${members[i].image}">`
+               
+    </div>
+    
+    `
+        
 
 }
 
