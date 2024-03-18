@@ -32,3 +32,16 @@ members.push(wayne,angela,walter,lopez,scott,barbara);
 
 console.log(members)
 
+/*MILESTONE 2 + BONUS 1:
+Stampare le stesse informazioni su DOM semplicemente come stringhe */
+const strigDomElement = document.querySelector('.string');
+
+for(let i = 0; i < members.length; i++){
+
+    strigDomElement.innerHTML +=`
+        <div>${members[i].name}</div>
+        <div>${members[i].rule}</div> <br>
+        <img src="${members[i].image}">`
+
+}
+
