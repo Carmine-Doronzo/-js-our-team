@@ -45,3 +45,14 @@ for(let i = 0; i < members.length; i++){
 
 }
 
+/*MILESTONE 1:
+Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto*/
+
+for(let i = 0; i < members.length; i++){
+
+    console.log(members[i].name);
+    console.log(members[i].rule);
+    console.log(members[i].image);
+
+}
+
