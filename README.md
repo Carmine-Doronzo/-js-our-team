@@ -1,1 +1,1 @@
-la Milestone 1 e' stata pushata dopo la milestone 2 perche' non l'avevo vista
+Esercizio in cui impostiamo un layout basico con bootstrap 
